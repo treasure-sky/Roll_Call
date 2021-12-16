@@ -20,15 +20,14 @@
   .container{
     display: flex;
   }
-  .button{
-    display: inline-block;
-    border: 1px solid transparent;
-    text-align: center;
-    padding: 1% 1%;
-    background-color: rgb(15, 98, 254);
-    letter-spacing: 0.56px;
-    color: #fff;
+  .crbt{
     vertical-align: middle;
+    font-size:20px;
+    color:white;
+    background-color: #2D4059;
+    margin: 0px 10px;
+    padding: 8px;
+
   }
 
 </style>
@@ -39,15 +38,16 @@
 <body style="background-color:#5584AC; margin: 0px;">
 <div class= "main">
   <div class= "container" style="justify-content: space-between; align-items: center;">
-    <div class="container" style="align-items: center; vertical-align: middle; padding:5px" onclick=location.href="https://treasure-sky.github.io/Roll_Call/">
+    <div class="container" style="align-items: center; vertical-align: middle; padding:10px" onclick=location.href="https://treasure-sky.github.io/Roll_Call/">
       <img src="images/rollcall_vector.png" style= "width:45px; height:45px;">
       <div class="hn" style="vertical-align: middle; font-size:23px;">3생활관<br>점호열외판</div>
     </div>
-    <button class= "button" type="button">저녁점호<br>열외수정</button>
-    <button class= "button" type="button">아침점호<br>열외수정</button>
+    <div class= "container">
+      <div class="hn crbt">저녁점호<br>열외수정</div>
+      <div class="hn crbt">아침점호<br>열외수정</div>
+    </div>
   </div>
 </div>
-
 
 </body>
 </html>
